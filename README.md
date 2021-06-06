@@ -1,5 +1,7 @@
 # SeekerXPOverrides
 
+A One-Shot script for SeekerExperiment images generation.
+
 ## How to use it?
 
 Please go to the following branches for specific instructions:
