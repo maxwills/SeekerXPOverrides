@@ -14,6 +14,8 @@ Metacello new
     baseline: 'Seeker';
     repository: 'github://maxwills/SeekerDebugger:seeker-xp';
     load.
+    
+#SeekerDebuggerPresenter asClass showInDebugger: true.
 
 Metacello new
     baseline: 'SeekerXPOverrides';
