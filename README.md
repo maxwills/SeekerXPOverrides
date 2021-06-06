@@ -2,4 +2,11 @@
 
 ## How to use it?
 
-Please go to the branch: 'control' or 'seeker' for specific intructions.
+Please go to the following branches for specific instructions:
+
+### Control Image
+https://github.com/maxwills/SeekerXPOverrides/tree/control
+
+
+### Seeker Image
+https://github.com/maxwills/SeekerXPOverrides/tree/seeker
