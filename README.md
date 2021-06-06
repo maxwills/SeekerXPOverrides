@@ -1,4 +1,4 @@
-# SeekerXPOverrides
+# SeekerXPOverrides - Seeker
 
 ## How to use it?
 
