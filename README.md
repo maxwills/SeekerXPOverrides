@@ -10,7 +10,7 @@ Metacello new
     repository: 'github://StevenCostiou/SeekerExperiment:single-task-list-from-files';
     load.
 
-#SeekerExperiment1 asClass controlOrSeeker: #seeker
+#SeekerExperiment1 asClass controlOrSeeker: #seeker.
 
 Metacello new
     baseline: 'Seeker';
