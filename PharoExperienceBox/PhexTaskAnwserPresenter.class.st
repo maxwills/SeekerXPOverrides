@@ -54,12 +54,12 @@ PhexTaskAnwserPresenter >> buildTaskAnswer [
 PhexTaskAnwserPresenter >> initializeDialogWindow: aDialogWindowPresenter [
 
 	super initializeDialogWindow: aDialogWindowPresenter.
-	aDialogWindowPresenter
+	"aDialogWindowPresenter
 		addButton: 'Pass (cannot be undone)'
 		do: [ :presenter | 
 			task pass.
 			presenter triggerOkAction.
-			presenter close ]
+			presenter close ]"
 ]
 
 { #category : #initialization }
