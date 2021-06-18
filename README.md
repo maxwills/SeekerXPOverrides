@@ -24,7 +24,7 @@ Metacello new
     repository: 'github://maxwills/SeekerXPOverrides:seeker';
     load.
 
-(IceRepository repositories select: [:r| r name='SeekerXPOverrides']) first discardChanges "Don't ask. It works".
+#SeekerXPOverrides asClass install.
 
 #SeekerExperiment asClass instrumentSystemForSeeker
 ```
