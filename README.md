@@ -6,9 +6,9 @@ Do this:
 
 ```Smalltalk
 Metacello new
-			baseline: 'SeekerXPImageCreation';
-			repository: 'github://maxwills/SeekerXPOverrides:seeker';
-			load.
+	baseline: 'SeekerXPImageCreation';
+	repository: 'github://maxwills/SeekerXPOverrides:seeker';
+	load.
 #SeekerXPImageCreation asClass setupSeekerImage
 ```
 
