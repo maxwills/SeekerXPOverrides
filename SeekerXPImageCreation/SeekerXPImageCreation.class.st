@@ -12,16 +12,16 @@ SeekerXPImageCreation class >> setupControlImage [
 			baseline: 'SeekerExperiment';
 			repository:
 				'github://StevenCostiou/SeekerExperiment:single-task-list-from-files';
-			load.
-
+			load ].
+	UIManager default showWaitCursorWhile: [ 
 		Metacello new
 			baseline: 'SeekerXPOverrides';
 			repository: 'github://maxwills/SeekerXPOverrides:control';
-			load.
-
+			load ].
+	UIManager default showWaitCursorWhile: [ 
 		(IceRepository repositories select: [ :r | 
-			 r name = 'SeekerXPOverrides' ]) first discardChanges. "Don't ask. It works"
-
+			 r name = 'SeekerXPOverrides' ]) first discardChanges "Don't ask. It works" ].
+	UIManager default showWaitCursorWhile: [ 
 		#SeekerExperiment asClass instrumentSystemForSeeker ].
 	self inform: 'Setup finished'
 ]
