@@ -18,7 +18,7 @@ SeekerXPOverrides class >> install [
 ]
 
 { #category : #actions }
-SeekerXPOverrides class >> overrideStDebuggerActionModel [ [
+SeekerXPOverrides class >> overrideStDebuggerActionModel [
 
 	| methodSource |
 	self flag: 'Hacky. Should be changed in the future'.
@@ -31,5 +31,4 @@ SeekerXPOverrides class >> overrideStDebuggerActionModel [ [
 	StDebugger compile: methodSource
 
 	"(StDebugger >> #debuggerActionModel) browse"
-]
 ]
